@@ -2,7 +2,6 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
-^\.travis\.yml$
 ^.*\.Rproj$
-^appveyor\.yml$
 ^.*\.pptx$
+^\.github$

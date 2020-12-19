@@ -5,10 +5,7 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/jl5000/barRacer.svg?branch=master)](https://travis-ci.org/jl5000/barRacer)
-[![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/jl5000/barRacer?branch=master&svg=true)](https://ci.appveyor.com/project/jl5000/barRacer)
+[![R-CMD-check](https://github.com/jl5000/barRacer/workflows/R-CMD-check/badge.svg)](https://github.com/jl5000/barRacer/actions)
 <!-- badges: end -->
 
 The goal of barRacer is to provide a simple function to generate bar
