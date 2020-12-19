@@ -14,7 +14,8 @@ bar_chart_race(
   fps = 10,
   width = 1200,
   height = 900,
-  title = ""
+  title = "",
+  renderer = gganimate::gifski_renderer()
 )
 }
 \arguments{
@@ -37,6 +38,8 @@ bar_chart_race(
 \item{height}{The height of the animation in pixels (defaults to 900).}
 
 \item{title}{The title of the animation (defaults to blank).}
+
+\item{renderer}{The renderer to use (defaults to gifski_renderer()).}
 }
 \value{
 A bar chart race animation.

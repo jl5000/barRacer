@@ -11,12 +11,14 @@
 #' @param width The width of the animation in pixels (defaults to 1200).
 #' @param height The height of the animation in pixels (defaults to 900).
 #' @param title The title of the animation (defaults to blank).
+#' @param renderer The renderer to use (defaults to gifski_renderer()).
 #' @return A bar chart race animation.
 #' @export
 bar_chart_race <- function(df, cat_col, val_col, time_col,
                            max_bars = 10, duration = 20, fps = 10,
                           width = 1200, height = 900,
-                          title = "") {
+                          title = "",
+                          renderer = gganimate::gifski_renderer()) {
   
   # gap between labels and end of bar
   nudge <- max(df %>% dplyr::pull({{val_col}})) / 50
@@ -56,7 +58,7 @@ bar_chart_race <- function(df, cat_col, val_col, time_col,
 
   gganimate::animate(p, duration = duration, fps = fps,
           end_pause = 50,
-          width = width, height = height)
+          width = width, height = height, renderer = renderer)
 }
 
 
