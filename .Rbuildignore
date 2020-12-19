@@ -2,6 +2,7 @@
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
+^CODE_OF_CONDUCT\.md$
 ^.*\.Rproj$
 ^.*\.pptx$
 ^\.github$
